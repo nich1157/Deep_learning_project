@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 20
+names: ['aeble', 'aeg', 'agurk', 'appelsin', 'banan', 'creme fraiche', 'dressing', 'hakket oksekod', 'kartoffel', 'leverpostej', 'log', 'maelk', 'ol', 'ost', 'peberfrugt', 'piskeflode', 'rugbrod', 'salat', 'smor', 'tomat']
+
+roboflow:
+  workspace: aarhus-universitet-r1lgs
+  project: deep-learning-wnuyb
+  version: 12
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aarhus-universitet-r1lgs/deep-learning-wnuyb/dataset/12
